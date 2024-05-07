@@ -4,6 +4,7 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import Waa from './Components/Wa1/Waa';
 import Wab from './Components/Wa2/Wab';
 import Wac from './Components/Wa3/Wac';
+import Wafr from './Components/Wafr/Wafr';
 
 function App() {
   const router = createBrowserRouter([
@@ -17,6 +18,10 @@ function App() {
     },
     {path:'/webpage3',
       element:<Wac/>
+    },
+    {
+      path:'/round-2',
+      element:<Wafr/>
     }
   ])
   return (
